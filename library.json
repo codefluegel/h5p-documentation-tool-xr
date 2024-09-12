@@ -1,0 +1,51 @@
+{
+  "title": "Documentation Tool (XR)",
+  "description": "Documentation tool (XR variant) for educational assessment.",
+  "majorVersion": 1,
+  "minorVersion": 11,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Joubel, XR Energy",
+  "license": "MIT",
+  "machineName": "H5P.DocumentationToolXR",
+  "embedTypes": ["iframe"],
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 19
+  },
+  "preloadedCss": [
+    {
+      "path": "navigation-menu-xr.css"
+    },
+    {
+      "path": "documentation-tool-xr.css"
+    }
+  ],
+  "preloadedJs": [
+    {
+      "path": "navigation-menu-xr.js"
+    },
+    {
+      "path": "documentation-tool-xr.js"
+    }
+  ],
+  "editorDependencies": [
+    {
+      "machineName": "H5PEditor.VerticalTabs",
+      "majorVersion": 1,
+      "minorVersion": 3
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontAwesome",
+      "majorVersion": 4,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.JoubelUI",
+      "majorVersion": 1,
+      "minorVersion": 3
+    }
+  ]
+}
